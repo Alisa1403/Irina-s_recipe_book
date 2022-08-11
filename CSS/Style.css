@@ -51,7 +51,7 @@ a {
 
 img.background {
   width: 100%;
-  height: auto;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -93,13 +93,7 @@ img.background {
   .category-item {
     max-width: none;
   }
-  img.background {
-    width: auto;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+
 }
 
 @media (max-width: 576px) {
@@ -112,37 +106,19 @@ img.background {
   .category-item {
     font-size: 75%;
   }
-  img.background {
-    width: auto;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+
 }
 
 @media (max-width: 426px) {
   .category-list {
     grid-template-columns: repeat(1, 1fr);
   }
-  img.background {
-    width: auto;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+
 }
 
 @media (max-width: 376px) {
   .category-list {
     grid-template-columns: repeat(1, 1fr);
   }
-  img.background {
-    width: auto;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+
 }
