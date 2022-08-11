@@ -1,0 +1,148 @@
+.page-header {
+  margin: 0;
+  padding: 0;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 75%;
+}
+
+a {
+  position: absolute;
+  font-weight: bolder;
+  outline: none;
+  text-decoration: none;
+}
+
+.link:link {
+  font-size: 35px;
+  color: aliceblue;
+  text-shadow: black 3px 1px 2px;
+}
+.link:visited {
+  font-size: 35px;
+  color: aliceblue;
+  text-shadow: black 2px 0 2px;
+}
+.link:hover {
+  font-size: 35px;
+  color: antiquewhite;
+  text-shadow: black 2px 0 2px;
+}
+
+.category-link:link {
+  font-size: 33px;
+  color: aliceblue;
+}
+.category-link:visited {
+  font-size: 33px;
+  color: aliceblue;
+}
+.category-link:hover {
+  font-size: 33px;
+  color: antiquewhite;
+}
+
+.stroke {
+  text-shadow: black 2px 0 2px;
+}
+
+img.background {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.container-category {
+  margin-top: 17%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-list {
+  display: grid;
+  gap: 120px;
+  grid-column-gap: 60px;
+  grid-template-columns: repeat(3, 26%);
+  margin: 5% 5%;
+  padding: 0;
+  text-align: center;
+  color: aliceblue;
+}
+
+.category-item {
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .category-list {
+    gap: 100px;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .category-item {
+    max-width: none;
+  }
+  img.background {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .category-list {
+    gap: 80px;
+    grid-column-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .category-item {
+    font-size: 75%;
+  }
+  img.background {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 426px) {
+  .category-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  img.background {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .category-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  img.background {
+    width: auto;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
