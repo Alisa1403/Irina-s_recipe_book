@@ -83,42 +83,99 @@ img.background {
   flex-direction: column;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
   .category-list {
-    gap: 100px;
-    grid-column-gap: 50px;
+    gap: 120%;
+    grid-column-gap: 50%;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .category-item {
-    max-width: none;
+  .container-category {
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-top: 20%;
+    margin-bottom: 5%;
   }
+}
 
+@media (max-width: 768px) {
+  .category-list {
+    gap: 110%;
+    grid-column-gap: 40%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container-category {
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 576px) {
   .category-list {
-    gap: 80px;
-    grid-column-gap: 60px;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 70%;
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .category-item {
-    font-size: 75%;
+  .container-category {
+    margin-left: 5%;
+    margin-right: 35%;
+    margin-top: 20%;
+    margin-bottom: 5%;
   }
 
 }
 
 @media (max-width: 426px) {
   .category-list {
+    gap: 70%;
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .container-category {
+    margin-left: 2%;
+    margin-right: 35%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 376px) {
   .category-list {
+    gap: 60%;
     grid-template-columns: repeat(1, 1fr);
   }
-
+  .container-category {
+    margin-left: 2%;
+    margin-right: 38%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+  }
+  .link:link {
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: black 3px 1px 2px;
+  }
+  .link:visited {
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: black 2px 0 2px;
+  }
+  .link:hover {
+    font-size: 30px;
+    color: antiquewhite;
+    text-shadow: black 2px 0 2px;
+  }
+  .category-link:link {
+    font-size: 28px;
+    color: aliceblue;
+  }
+  .category-link:visited {
+    font-size: 28px;
+    color: aliceblue;
+  }
+  .category-link:hover {
+    font-size: 28px;
+    color: antiquewhite;
+  }
 }
