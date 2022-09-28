@@ -1,60 +1,57 @@
-* {
-  box-sizing: border-box;
-}
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-.page-header {
+header {
   margin: 0;
   padding: 0;
   padding-top: 1.5%;
-  padding-bottom: 0.5%;
+  padding-bottom: 1.5%;
   display: flex;
   justify-content: center;
   text-decoration: none;
+  list-style: none;
   font-size: 75%;
 }
-
+body{
+  background: url(https://avatars.mds.yandex.net/get-images-cbir/1675444/ukpteQMEVDDWc-2Xo86Z7Q823/ocr)no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
 a {
-  position: absolute;
   font-weight: bolder;
   outline: none;
   text-decoration: none;
+}
+p{
+  font-size: 20px;
 }
 
 .link:link {
   font-size: 35px;
   color: aliceblue;
-  text-shadow: black 3px 1px 2px;
 }
 .link:visited {
   font-size: 35px;
   color: aliceblue;
-  text-shadow: black 2px 0 2px;
 }
 .link:hover {
   font-size: 35px;
   color: antiquewhite;
-  text-shadow: black 2px 0 2px;
 }
 
 .category-link:link {
-  font-size: 33px;
+  font-size: 30px;
   color: aliceblue;
 }
 .category-link:visited {
-  font-size: 33px;
+  font-size: 30px;
   color: aliceblue;
 }
 .category-link:hover {
-  font-size: 33px;
+  font-size: 30px;
   color: antiquewhite;
 }
 
 .stroke {
-  text-shadow: black 2px 0 2px;
+  text-shadow: black 3px 0 2px;
 }
 
 img.background {
@@ -66,29 +63,54 @@ img.background {
   object-fit: cover;
 }
 
+.shadow {
+  background: #fdf5e6ee;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  padding: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 20px;
+}
+
 .container-category {
-  margin-top: 17%;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.category-list {
   display: grid;
-  gap: 120px;
-  grid-column-gap: 60px;
-  grid-template-columns: repeat(3, 26%);
-  margin: 5% 5%;
-  padding: 0;
-  text-align: center;
-  color: aliceblue;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 80px;
+  grid-row-gap: 100px;
+  grid-auto-rows: 80px;
+  margin-top: 15%;
+  margin-left: 16%;
+  margin-right: 5%;
 }
-
-.category-item {
-  display: flex;
-  color: aliceblue;
-  justify-content: center;
-  flex-direction: column;
+.box-1{
+  grid-column: 1 / 2;
+  grid-row: -4 /-3;
+}
+.box-2{
+  grid-column: 2 / 3;
+  grid-row: -4 / -3;
+}
+.box-3{
+  grid-column: 3 / 4;
+  grid-row: -4 / -3;
+}
+.box-4{
+  grid-column: 1 / 2;
+  grid-row: -3 / -2;
+}
+.box-5{
+  grid-column: 2 / 3;
+  grid-row: -3 / -2;
+}
+.category-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 80px;
+  grid-row-gap: 30px;
+}
+.category-item{
+  width: 350px;
+  height: 100px;
 }
 
 @media (max-width: 1040px) {
@@ -118,6 +140,33 @@ img.background {
     margin-top: 30%;
     margin-bottom: 5%;
   }
+  .link:link {
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: black 3px 1px 2px;
+  }
+  .link:visited {
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: black 2px 0 2px;
+  }
+  .link:hover {
+    font-size: 25px;
+    color: antiquewhite;
+    text-shadow: black 2px 0 2px;
+  }
+  .category-link:link {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  .category-link:visited {
+    font-size: 24px;
+    color: aliceblue;
+  }
+  .category-link:hover {
+    font-size: 24px;
+    color: antiquewhite;
+  }
 }
 
 @media (max-width: 576px) {
@@ -131,6 +180,24 @@ img.background {
     margin-right: 35%;
     margin-top: 20%;
     margin-bottom: 5%;
+  }
+  .link:link {
+    font-size: 25px;
+  }
+  .link:visited {
+    font-size: 25px;
+  }
+  .link:hover {
+    font-size: 25px;
+  }
+  .category-link:link {
+    font-size: 22px;
+  }
+  .category-link:visited {
+    font-size: 22px;
+  }
+  .category-link:hover {
+    font-size: 22px;
   }
 
 }
@@ -146,6 +213,25 @@ img.background {
     margin-top: 25%;
     margin-bottom: 5%;
   }
+  .link:link {
+    font-size: 25px;
+  }
+  .link:visited {
+    font-size: 25px;
+  }
+  .link:hover {
+    font-size: 25px;
+  }
+  .category-link:link {
+    font-size: 22px;
+  }
+  .category-link:visited {
+    font-size: 22px;
+  }
+  .category-link:hover {
+    font-size: 22px;
+  }
+
 }
 
 @media (max-width: 376px) {
@@ -160,30 +246,21 @@ img.background {
     margin-bottom: 5%;
   }
   .link:link {
-    font-size: 30px;
-    color: aliceblue;
-    text-shadow: black 3px 1px 2px;
+    font-size: 25px;
   }
   .link:visited {
-    font-size: 30px;
-    color: aliceblue;
-    text-shadow: black 2px 0 2px;
+    font-size: 25px;
   }
   .link:hover {
-    font-size: 30px;
-    color: antiquewhite;
-    text-shadow: black 2px 0 2px;
+    font-size: 25px;
   }
   .category-link:link {
-    font-size: 28px;
-    color: aliceblue;
+    font-size: 22px;
   }
   .category-link:visited {
-    font-size: 28px;
-    color: aliceblue;
+    font-size: 22px;
   }
   .category-link:hover {
-    font-size: 28px;
-    color: antiquewhite;
+    font-size: 22px;
   }
 }
