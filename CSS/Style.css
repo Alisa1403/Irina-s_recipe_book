@@ -14,6 +14,7 @@ body{
   /* -webkit-background-size: cover; */
   background-size: cover;
   min-height: 100vh;
+  max-width:100%
 }
 a {
   font-weight: bolder;
@@ -124,8 +125,14 @@ p{
     grid-template-columns: repeat(1, 1fr);
   }
   .container-category {
-    margin-left: 2%;
-    margin-right: 35%;
+    margin-left: 10%;
+    margin-right: 22%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+  }
+  .container-recipe{
+    margin-left: 12%;
+    margin-right: 25%;
     margin-top: 25%;
     margin-bottom: 5%;
   }
