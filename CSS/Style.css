@@ -14,7 +14,7 @@ body{
   /* -webkit-background-size: cover; */
   background-size: cover;
   min-height: 100vh;
-  max-width:100%
+  background-attachment: fixed;
 }
 a {
   font-weight: bolder;
@@ -110,7 +110,7 @@ p{
 @media (max-width: 576px) {
   .category-list {
     gap: 80px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .container-category {
     margin-left: 15%;
@@ -118,6 +118,7 @@ p{
     margin-top: 15%;
     margin-bottom: 5%;
   }
+  
 }
 
 @media (max-width: 426px) {
