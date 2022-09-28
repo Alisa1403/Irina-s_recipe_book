@@ -110,7 +110,7 @@ p{
 @media (max-width: 576px) {
   .category-list {
     gap: 80px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .container-category {
     margin-left: 15%;
