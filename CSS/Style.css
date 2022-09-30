@@ -8,8 +8,7 @@ header {
   font-size: 75%;
 }
 body{
-  background: url(https://avatars.mds.yandex.net/get-images-cbir/1675444/ukpteQMEVDDWc-2Xo86Z7Q823/ocr)no-repeat center;
-  /* -webkit-background-size: cover; */
+  background: url(https://3.downloader.disk.yandex.ru/preview/b309f930b1b9b59b0ffb58ba7d00d32d3f8c40a9096e712794c78a568e22b3b0/inf/WfEo7cs9pkOc3Q_Q5RcB3uBDMHJqTQfG0SThx36Id2GHNlJ9zJ4J6bV6dx_N73SqIsgra6QfsXaL2_RhVy891w%3D%3D?uid=658665791&filename=food_photo.jpeg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=658665791&tknv=v2&size=2880x1642)no-repeat center;
   background-size: cover;
   min-height: 100vh;
   background-attachment: fixed;
