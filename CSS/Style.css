@@ -30,6 +30,9 @@ a:hover{
 p{
   font-size: 20px;
 }
+h2{
+  text-align: center;
+}
 
 .shadow {
   text-shadow: black 3px 0 2px;
