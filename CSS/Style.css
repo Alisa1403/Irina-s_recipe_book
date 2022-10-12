@@ -47,27 +47,15 @@ h2{
   padding-top: 2%;
 }
 
-.container-category {
-  margin-top: 15%;
-  margin-left: 2%;
-  margin-right: 5%;
-}
 .submenu{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 100px;
   text-align: center;
-  margin-left: 120px;
-  margin-right: 120px;
   padding: 0%;
   margin-top: 12%;
   margin-left: 10%;
   margin-right: 10%;
-}
-.container-recipe{
-  margin-top: 5%;
-  margin-left: 2%;
-  margin-right: 5%;
 }
 
 .category-list{
@@ -75,6 +63,10 @@ h2{
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 80px;
   text-align: center;
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0%;
 }
 
 .category-item {
@@ -91,39 +83,25 @@ h2{
   .category-list {
     gap: 100px;
     grid-template-columns: repeat(3, 1fr);
-  }
-  .container-category {
-    margin-left: 15%;
-    margin-right: 25%;
     margin-top: 20%;
-    margin-bottom: 5%;
   }
   .submenu{
     gap: 100px;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 20%;
   }
 }
 
 @media (max-width: 1040px) {
   .category-list {
     gap: 100px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .container-category {
-    margin-left: 15%;
-    margin-right: 25%;
-    margin-top: 20%;
-    margin-bottom: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 27%;
   }
   .submenu{
     gap: 100px;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 22%;
   }
 }
 
@@ -131,20 +109,12 @@ h2{
   .category-list {
     gap: 100px;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .container-category {
-    margin-left: 15%;
-    margin-right: 25%;
     margin-top: 25%;
-    margin-bottom: 5%;
   }
   .submenu{
     gap: 100px;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 27%;
-    margin-bottom: 5%;
+    margin-top: 25%;
   }
 }
 
@@ -152,55 +122,37 @@ h2{
   .category-list {
     gap: 80px;
     grid-template-columns: repeat(1, 1fr);
-  }
-  .container-category {
-    margin-left: 15%;
-    margin-right: 25%;
     margin-top: 15%;
-    margin-bottom: 5%;
   }
+
   .submenu{
     gap: 80px;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 27%;
-    margin-bottom: 5%;
+    margin-top: 18%;
   }
 }
 
 @media (max-width: 426px) {
   .category-list {
+    gap: 60px;
     grid-template-columns: repeat(1, 1fr);
-  }
-  .container-category {
-    margin-left: 10%;
-    margin-right: 22%;
     margin-top: 25%;
-    margin-bottom: 5%;
   }
-  .container-recipe{
-    margin-left: 12%;
-    margin-right: 25%;
-    margin-top: 25%;
-    margin-bottom: 5%;
-  }
+
   .submenu{
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 25%;
   }
 }
 
 @media (max-width: 376px) {
   .category-list {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 27%;
   }
-  .container-category {
-    margin-left: 10%;
-    margin-right: 38%;
-    margin-top: 30%;
-    margin-bottom: 5%;
-  }
+
   .submenu{
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 27%;
   }
 }
