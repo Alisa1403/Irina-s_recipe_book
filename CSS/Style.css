@@ -68,7 +68,9 @@ h2{
   margin-right: 5%;
   padding: 0%;
 }
-
+.recipe{
+  margin-top: 5%;
+}
 .category-item {
   display: flex;
   justify-content: center;
@@ -90,6 +92,9 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     margin-top: 20%;
   }
+  .recipe{
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -103,6 +108,9 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     margin-top: 22%;
   }
+  .recipe{
+    margin-top: 5%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -115,6 +123,9 @@ h2{
     gap: 100px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 25%;
+  }
+  .recipe{
+    margin-top: 10%;
   }
 }
 
@@ -130,6 +141,9 @@ h2{
     grid-template-columns: repeat(1, 1fr);
     margin-top: 18%;
   }
+  .recipe{
+    margin-top: 15%;
+  }
 }
 
 @media (max-width: 426px) {
@@ -143,6 +157,9 @@ h2{
     grid-template-columns: repeat(1, 1fr);
     margin-top: 25%;
   }
+  .recipe{
+    margin-top: 15%;
+  }
 }
 
 @media (max-width: 376px) {
@@ -154,5 +171,8 @@ h2{
   .submenu{
     grid-template-columns: repeat(1, 1fr);
     margin-top: 27%;
+  }
+  .recipe{
+    margin-top: 15%;
   }
 }
