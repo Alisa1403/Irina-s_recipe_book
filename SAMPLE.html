@@ -2,61 +2,46 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="../CSS/Style.css" />
-    <link rel="stylesheet" href="../CSS/Normalize.css" />
-    
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
   </head>
 
   <body>
     <header class="header">
-        <a class="category-link stroke" href="../index.html">На главную страницу</a>
+      <a class="category-link stroke" href="index.html">На главную страницу</a>
     </header>
+
     <div class="box">
-      <h2>Name</h2>
-      <br>
+      <h2>Название</h2>
 
-      <h3>Ингредиенты:</h3>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <br>
+      <div id="todo-first">
+        <h3>Ингредиенты</h3>
+        <input type="text" placeholder="Добавить ингредиент" />
+        <ul class="todos"></ul>
 
-      <h3>Этапы приготовления</h3>
-      <ol>
-        <li class="clf">
-          <p> </p>
-        </li>
+        <div id="buttons">
+          <button class="save">Сохранить</button>
+          <button class="clear">Очистить</button>
+          <button class="change">Изменить</button>
+        </div>
+      </div>
 
-        <li class="clf">
-          <p> </p>
-        </li>
+      <div id="todo-second">
+        <h3>Этапы приготовления</h3>
+        <input type="text" placeholder="Добавить ингредиент" />
+        <ul class="todos"></ul>
 
-        <li class="clf">
-          <p> </p>
-        </li>
-
-        <li class="clf">
-          <p> </p>
-        </li>
-
-        <li class="clf">
-          <p> </p>
-        </li>
-
-        <li class="clf">
-          <p> </p>
-        </li>
-      </ol>
+        <div id="buttons">
+          <button class="save">Сохранить</button>
+          <button class="clear">Очистить</button>
+          <button class="change">Изменить</button>
+        </div>
+      </div>
+      
     </div>
-
   </body>
+  <script src="JS/JS.js"></script>
 </html>
